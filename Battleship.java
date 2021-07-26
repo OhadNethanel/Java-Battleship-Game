@@ -82,7 +82,7 @@ public class Battleship {
 					   }
 					}
 				
-				System.out.println("System will now deploy " + maximumShips + " ships randomly for you!");
+				System.out.println("System will now deploy " + maximumShips + " ships randomly for you! \n");
 				computerDeploy(usrArr, maximumShips);
 				deploy(usrArr); // refresh grid when finished!
 				break;
