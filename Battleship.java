@@ -188,7 +188,7 @@ public class Battleship {
 		int rndY = (int) (Math.random() * usrArr.length);
 
 		if ((usrArr[rndX][rndY] == 2) || (usrArr[rndX][rndY] == 3)) { // if coordinates already picked before
-			System.out.println(" re-calculaating steps (coordinates already picked before)");
+			System.out.println("re-calculaating steps (coordinates already picked before)");
 			while ((usrArr[rndX][rndY] == 2) || (usrArr[rndX][rndY] == 3)) { // keep random them until you get two numbers never picked before
 				rndX = (int) (Math.random() * usrArr.length);
 				rndY = (int) (Math.random() * usrArr.length);
