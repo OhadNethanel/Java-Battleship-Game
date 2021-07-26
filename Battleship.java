@@ -1,5 +1,3 @@
-package jb;
-
 import java.util.Scanner;
 
 public class Battleship {
