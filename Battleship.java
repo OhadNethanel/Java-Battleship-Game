@@ -9,7 +9,7 @@ public class Battleship {
 	public static void main(String[] args) {
 		
 		/////BASIC SETTINGS//////
-		int maximumShips = 10; // CHOOSE AMOUNT OF SHIPS FOR EACH PLAYER
+		int maximumShips = 5; // CHOOSE AMOUNT OF SHIPS FOR EACH PLAYER
 		int gameSize = 10; //game size is: gameSize x gameSize
 		/////END BASIC SETTINGS//////
 		
